@@ -1,0 +1,28 @@
+{
+    "name": "LeandroLaurindo/SONBase",
+    "description": "Skeleton Application for ZF2",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "module",
+        "zf2",
+        "son"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "authors": [
+        {
+            "nome": "Leandro Laurindo",
+            "email": "leandrolaurindo@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "~2.4",
+        "doctrine/doctrine-orm-module": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "SONBase": "src/"
+        }
+    }
+}
